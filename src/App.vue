@@ -1,20 +1,26 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import ArticleItem from './components/Article.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="logo" class="logo" src="./assets/logo.png" width="420" height="375" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Bienvenidos!" />
     </div>
   </header>
 
   <main>
     <TheWelcome />
   </main>
+
+  <section>
+    <ArticleItem />
+  </section>
+
 </template>
 
 <style scoped>
